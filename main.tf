@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_security_group" "sg" {
   name        = "example-security-group"
-  vpc_id      = "vpc-054f7b1ecfa344769"
+  vpc_id      = "022499047528/vpc-054f7b1ecfa344769"
 }
 
 resource "aws_vpc_security_group_ingress_rule" "sg-rule" {
