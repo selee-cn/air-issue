@@ -4,7 +4,7 @@ provider "aws" {
 
 
 resource "aws_security_group" "sg" {
-  name        = "sg-example"
+  name        = "example-security-group"
   vpc_id      = "vpc-054f7b1ecfa344769"
 }
 
