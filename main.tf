@@ -1,3 +1,10 @@
+provider "aws" {
+ region                  = "ap-northeast-2"
+ access_key              = "ASIAQKPIMHBUFL26B4PB"
+ secret_key              = var.secret_key
+}
+
+
 resource "aws_security_group" "sg" {
   name        = "sg-example"
   vpc_id      = "vpc-054f7b1ecfa344769"
